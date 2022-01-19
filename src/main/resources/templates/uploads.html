@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>图片上传</title>
+</head>
+<body>
+
+
+<div>
+    <form id="form1" method="POST" action="/img/upload" enctype="multipart/form-data" >
+        <label>上传图片</label>
+        <input type="file" name="file"/>
+        <input type="submit" name="submit" value="上传"/>
+    </form>
+    <p>图片: 链接</p>
+<!--     <span th:text="${urlName}"></span>-->
+    <img th:src="@{${urlSrc}}"/>
+</div>
+
+
+
+
+</body>
+</html>
