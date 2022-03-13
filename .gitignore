@@ -16,3 +16,5 @@ log/**
 log
 blog-ui/node_modules
 blog-ui/node_modules/**
+blog_applet/node_modules
+blog_applet/node_modules/**
